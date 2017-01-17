@@ -14,7 +14,7 @@
 			 url: '/1.1',
 			 views: {
 				'side-menu21': {
-				  templateUrl: 'sany6/1.1.htm',
+				  templateUrl: 'sany6/11.htm',
 				  controller: 'menuCtrl'
 				}
 			 }
@@ -23,7 +23,7 @@
 			 url: '/1.2',
 			 views: {
 				'side-menu21': {
-				  templateUrl: 'sany6/C1 B2 Viêm âm đạo do vi khuẩn (Bacterial vaginosis).htm',
+				  templateUrl: 'sany6/12.htm',
 				  controller: 'menuCtrl'
 				}
 			 }
@@ -32,7 +32,7 @@
 			 url: '/1.3',
 			 views: {
 				'side-menu21': {
-				  templateUrl: 'sany6/C1 B3  Viêm âm đạo do Candida sp.htm',
+				  templateUrl: 'sany6/13.htm',
 				  controller: 'menuCtrl'
 				}
 			 }
@@ -41,7 +41,7 @@
 			 url: '/1.4',
 			 views: {
 				'side-menu21': {
-				  templateUrl: 'sany6/C1 B4  Diễn tiến tự nhiên của lộ tuyến cổ tử cung.htm',
+				  templateUrl: 'sany6/14.htm',
 				  controller: 'menuCtrl'
 				}
 			 }
@@ -50,7 +50,7 @@
 			 url: '/1.5',
 			 views: {
 				'side-menu21': {
-				  templateUrl: 'sany6/C1 B5  Biểu hiện qua soi cổ tử cung của các tổn thương không ác tính ở cổ tử cung.htm',
+				  templateUrl: 'sany6/15.htm',
 				  controller: 'menuCtrl'
 				}
 			 }
@@ -59,7 +59,7 @@
 			 url: '/1.6',
 			 views: {
 				'side-menu21': {
-				  templateUrl: 'sany6/C1 B6  Phết mỏng tế bào cổ tử cung tầm soát ung thư cổ tử cung.htm',
+				  templateUrl: 'sany6/16.htm',
 				  controller: 'menuCtrl'
 				}
 			 }
