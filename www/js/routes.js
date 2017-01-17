@@ -69,7 +69,7 @@
 			 url: '/2.1',
 			 views: {
 				'side-menu21': {
-				  templateUrl: 'sany6/2.1  U xơ tử cung và các vấn đề có liên quan.htm',
+				  templateUrl: 'sany6/21.htm',
 				  controller: 'menuCtrl'
 				}
 			 }
@@ -78,7 +78,7 @@
 			 url: '/2.2',
 			 views: {
 				'side-menu21': {
-				  templateUrl: 'sany6/2.2  Vai trò của hình ảnh học trong các bệnh lý lành tính ở tử cung.htm',
+				  templateUrl: 'sany6/22.htm',
 				  controller: 'menuCtrl'
 				}
 			 }
@@ -87,7 +87,7 @@
 			 url: '/2.3',
 			 views: {
 				'side-menu21': {
-				  templateUrl: 'sany6/2.3  Bệnh tuyến cơ tử cung.htm',
+				  templateUrl: 'sany6/23.htm',
 				  controller: 'menuCtrl'
 				}
 			 }
@@ -96,7 +96,7 @@
 			 url: '/2.4',
 			 views: {
 				'side-menu21': {
-				  templateUrl: 'sany6/2.4  Nguyên lý tiếp cận điều trị u xơ-cơ tử cung.htm',
+				  templateUrl: 'sany6/24.htm',
 				  controller: 'menuCtrl'
 				}
 			 }
@@ -124,7 +124,7 @@
 			 url: '/3.1',
 			 views: {
 				'side-menu21': {
-				  templateUrl: 'sany6/C3 B1  Dẫn nhập về các bệnh lây qua tình dục.htm',
+				  templateUrl: 'sany6/31.htm',
 				  controller: 'menuCtrl'
 				}
 			 }
@@ -133,7 +133,7 @@
 			 url: '/3.2',
 			 views: {
 				'side-menu21': {
-				  templateUrl: 'sany6/C3 B2  Viêm âm đạo do Trichomonas vaginalis.htm',
+				  templateUrl: 'sany6/32.htm',
 				  controller: 'menuCtrl'
 				}
 			 }
@@ -142,7 +142,7 @@
 			 url: '/3.3',
 			 views: {
 				'side-menu21': {
-				  templateUrl: 'sany6/3.3 Nhiễm Treponema pallidum.htm',
+				  templateUrl: 'sany6/33.htm',
 				  controller: 'menuCtrl'
 				}
 			 }
@@ -151,7 +151,7 @@
 			 url: '/3.4',
 			 views: {
 				'side-menu21': {
-				  templateUrl: 'sany6/3.4 Nhiễm Neisseria gonorrhoeae.htm',
+				  templateUrl: 'sany6/34.htm',
 				  controller: 'menuCtrl'
 				}
 			 }
@@ -160,7 +160,7 @@
 			 url: '/3.5',
 			 views: {
 				'side-menu21': {
-				  templateUrl: 'sany6/3.5 Nhiễm Chlamydia trachomatis.html',
+				  templateUrl: 'sany6/35.html',
 				  controller: 'menuCtrl'
 				}
 			 }
@@ -169,7 +169,7 @@
 			 url: '/3.6',
 			 views: {
 				'side-menu21': {
-				  templateUrl: 'sany6/3.6  Vi sinh học Chlamydia trachomatis và đáp ứng miễn dịch vật chủ.htm',
+				  templateUrl: 'sany6/36.htm',
 				  controller: 'menuCtrl'
 				}
 			 }
@@ -178,7 +178,7 @@
 			 url: '/3.7',
 			 views: {
 				'side-menu21': {
-				  templateUrl: 'sany6/3.7 Nhiễm HIV.htm',
+				  templateUrl: 'sany6/37.htm',
 				  controller: 'menuCtrl'
 				}
 			 }
@@ -187,7 +187,7 @@
 			 url: '/3.8',
 			 views: {
 				'side-menu21': {
-				  templateUrl: 'sany6/3.8 Viêm vùng chậu.htm',
+				  templateUrl: 'sany6/38.htm',
 				  controller: 'menuCtrl'
 				}
 			 }
