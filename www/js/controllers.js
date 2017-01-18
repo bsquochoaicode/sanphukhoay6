@@ -32,7 +32,7 @@ function ($scope, $stateParams, danhSachMenu,  $ionicScrollDelegate) {
 	$scope.localStorage = localStorage
 	$scope.updateTitle = function(menu){
 		$scope.localStorage.currentPage = menu.title
-		$scope.localStorage.currentUrl = menu.sref
+		$scope.localStorage.currentUrl = menu.sref.replace("menu.", "")
 	}
 }])
 .controller('noiDungCtrl', ['$scope', '$stateParams',

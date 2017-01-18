@@ -11,7 +11,7 @@
   
 
       .state('menu.11', {
-			 url: '/1.1',
+			 url: '/11',
 			 views: {
 				'side-menu21': {
 				  templateUrl: 'sany6/11.htm',
@@ -20,7 +20,7 @@
 			 }
 		  })
 		  .state('menu.12', {
-			 url: '/1.2',
+			 url: '/12',
 			 views: {
 				'side-menu21': {
 				  templateUrl: 'sany6/12.htm',
@@ -29,7 +29,7 @@
 			 }
 		  })
 		  .state('menu.13', {
-			 url: '/1.3',
+			 url: '/13',
 			 views: {
 				'side-menu21': {
 				  templateUrl: 'sany6/13.htm',
@@ -38,7 +38,7 @@
 			 }
 		  })
 		  .state('menu.14', {
-			 url: '/1.4',
+			 url: '/14',
 			 views: {
 				'side-menu21': {
 				  templateUrl: 'sany6/14.htm',
@@ -47,7 +47,7 @@
 			 }
 		  })
 		  .state('menu.15', {
-			 url: '/1.5',
+			 url: '/15',
 			 views: {
 				'side-menu21': {
 				  templateUrl: 'sany6/15.htm',
@@ -56,7 +56,7 @@
 			 }
 		  })
 		  .state('menu.16', {
-			 url: '/1.6',
+			 url: '/16',
 			 views: {
 				'side-menu21': {
 				  templateUrl: 'sany6/16.htm',
@@ -66,7 +66,7 @@
 		  })
 		  
 		  .state('menu.21', {
-			 url: '/2.1',
+			 url: '/21',
 			 views: {
 				'side-menu21': {
 				  templateUrl: 'sany6/21.htm',
@@ -75,7 +75,7 @@
 			 }
 		  })
 		  .state('menu.22', {
-			 url: '/2.2',
+			 url: '/22',
 			 views: {
 				'side-menu21': {
 				  templateUrl: 'sany6/22.htm',
@@ -84,7 +84,7 @@
 			 }
 		  })
 		  .state('menu.23', {
-			 url: '/2.3',
+			 url: '/23',
 			 views: {
 				'side-menu21': {
 				  templateUrl: 'sany6/23.htm',
@@ -93,7 +93,7 @@
 			 }
 		  })
 		  .state('menu.24', {
-			 url: '/2.4',
+			 url: '/24',
 			 views: {
 				'side-menu21': {
 				  templateUrl: 'sany6/24.htm',
@@ -102,7 +102,7 @@
 			 }
 		  })
 		  .state('menu.25', {
-			 url: '/2.5',
+			 url: '/25',
 			 views: {
 				'side-menu21': {
 				  templateUrl: 'sany6/2.5.htm',
@@ -111,7 +111,7 @@
 			 }
 		  })
 		  .state('menu.26', {
-			 url: '/2.6',
+			 url: '/26',
 			 views: {
 				'side-menu21': {
 				  templateUrl: 'sany6/2.6.htm',
@@ -121,7 +121,7 @@
 		  })
 		  
 		  .state('menu.31', {
-			 url: '/3.1',
+			 url: '/31',
 			 views: {
 				'side-menu21': {
 				  templateUrl: 'sany6/31.htm',
@@ -130,7 +130,7 @@
 			 }
 		  })
 		  .state('menu.32', {
-			 url: '/3.2',
+			 url: '/32',
 			 views: {
 				'side-menu21': {
 				  templateUrl: 'sany6/32.htm',
@@ -139,7 +139,7 @@
 			 }
 		  })
 		  .state('menu.33', {
-			 url: '/3.3',
+			 url: '/33',
 			 views: {
 				'side-menu21': {
 				  templateUrl: 'sany6/33.htm',
@@ -148,7 +148,7 @@
 			 }
 		  })
 		  .state('menu.34', {
-			 url: '/3.4',
+			 url: '/34',
 			 views: {
 				'side-menu21': {
 				  templateUrl: 'sany6/34.htm',
@@ -157,7 +157,7 @@
 			 }
 		  })
 		  .state('menu.35', {
-			 url: '/3.5',
+			 url: '/35',
 			 views: {
 				'side-menu21': {
 				  templateUrl: 'sany6/35.html',
@@ -166,7 +166,7 @@
 			 }
 		  })
 		  .state('menu.36', {
-			 url: '/3.6',
+			 url: '/36',
 			 views: {
 				'side-menu21': {
 				  templateUrl: 'sany6/36.htm',
@@ -175,7 +175,7 @@
 			 }
 		  })
 		  .state('menu.37', {
-			 url: '/3.7',
+			 url: '/37',
 			 views: {
 				'side-menu21': {
 				  templateUrl: 'sany6/37.htm',
@@ -184,7 +184,7 @@
 			 }
 		  })
 		  .state('menu.38', {
-			 url: '/3.8',
+			 url: '/38',
 			 views: {
 				'side-menu21': {
 				  templateUrl: 'sany6/38.htm',
@@ -534,8 +534,8 @@
     templateUrl: 'templates/menu.html',
     controller: 'menuCtrl'
   })
-
-$urlRouterProvider.otherwise('/side-menu21/'+localStorage.currentUrl)
+currentUrl = localStorage.currentUrl || "11"
+$urlRouterProvider.otherwise('/side-menu21/'+currentUrl)
 
   
 
