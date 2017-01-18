@@ -4,8 +4,7 @@
 	menus = [
 			{
 			sref: "menu.11",
-			title: "1.1 Khái niệm hệ khuẩn âm đạo (microbiome)",
-			temlateURL: "d"
+			title: "1.1 Khái niệm hệ khuẩn âm đạo (microbiome)"
 			},
 			{
 			sref: "menu.12",

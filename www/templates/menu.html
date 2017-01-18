@@ -18,7 +18,7 @@
     <ion-content padding="false" class="side-menu-left has-header ">
       <ion-list id="menu-list1">
         <ion-item >Phần mềm chưa hoàn chỉnh- Hoai</ion-item>
-        <ion-item ui-sref="{{menu.sref}}" menu-close="" ng-repeat="menu in danhSachMenu | filter: timKiem">{{menu.title}}</ion-item>
+        <ion-item ui-sref="{{menu.sref}}" menu-close="" ng-repeat="menu in danhSachMenu | filter: timKiem" ng-click="updateTitle(menu.title)" ui-sref-active="active" >{{menu.title}}</ion-item>
 		  
       </ion-list>
     </ion-content>

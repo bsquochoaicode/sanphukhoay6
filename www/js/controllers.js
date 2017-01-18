@@ -29,5 +29,8 @@ function ($scope, $stateParams) {
 // TIP: Access Route Parameters for your page via $stateParams.parameterName
 function ($scope, $stateParams, danhSachMenu) {
 	$scope.danhSachMenu = danhSachMenu
+	$scope.updateTitle = function(newTitle){
+		$scope.currentTitle = newTitle
+	}
 }])
  
