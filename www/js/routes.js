@@ -535,7 +535,7 @@
     controller: 'menuCtrl'
   })
 
-$urlRouterProvider.otherwise('/side-menu21/1.1')
+$urlRouterProvider.otherwise('/side-menu21/'+localStorage.currentUrl)
 
   
 
