@@ -27,10 +27,15 @@ function ($scope, $stateParams) {
 .controller('menuCtrl', ['$scope', '$stateParams', 'danhSachMenu', // The following is the constructor function for this page's controller. See https://docs.angularjs.org/guide/controller
 // You can include any angular dependencies as parameters for this function
 // TIP: Access Route Parameters for your page via $stateParams.parameterName
-function ($scope, $stateParams, danhSachMenu) {
+function ($scope, $stateParams, danhSachMenu,  $ionicScrollDelegate) {
 	$scope.danhSachMenu = danhSachMenu
+	$scope.localStorage = localStorage
 	$scope.updateTitle = function(newTitle){
-		$scope.currentTitle = newTitle
+		$scope.localStorage.currentPage = newTitle
 	}
+}])
+.controller('noiDungCtrl', ['$scope', '$stateParams',
+function ($scope, $stateParams) {
+	$scope.localStorage = localStorage
 }])
  

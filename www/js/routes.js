@@ -15,7 +15,7 @@
 			 views: {
 				'side-menu21': {
 				  templateUrl: 'sany6/11.htm',
-				  controller: 'menuCtrl'
+				  controller: 'noiDungCtrl'
 				}
 			 }
 		  })
@@ -24,7 +24,7 @@
 			 views: {
 				'side-menu21': {
 				  templateUrl: 'sany6/12.htm',
-				  controller: 'menuCtrl'
+				  controller: 'noiDungCtrl'
 				}
 			 }
 		  })
@@ -33,7 +33,7 @@
 			 views: {
 				'side-menu21': {
 				  templateUrl: 'sany6/13.htm',
-				  controller: 'menuCtrl'
+				  controller: 'noiDungCtrl'
 				}
 			 }
 		  })
@@ -42,7 +42,7 @@
 			 views: {
 				'side-menu21': {
 				  templateUrl: 'sany6/14.htm',
-				  controller: 'menuCtrl'
+				  controller: 'noiDungCtrl'
 				}
 			 }
 		  })
@@ -51,7 +51,7 @@
 			 views: {
 				'side-menu21': {
 				  templateUrl: 'sany6/15.htm',
-				  controller: 'menuCtrl'
+				  controller: 'noiDungCtrl'
 				}
 			 }
 		  })
@@ -60,7 +60,7 @@
 			 views: {
 				'side-menu21': {
 				  templateUrl: 'sany6/16.htm',
-				  controller: 'menuCtrl'
+				  controller: 'noiDungCtrl'
 				}
 			 }
 		  })
@@ -70,7 +70,7 @@
 			 views: {
 				'side-menu21': {
 				  templateUrl: 'sany6/21.htm',
-				  controller: 'menuCtrl'
+				  controller: 'noiDungCtrl'
 				}
 			 }
 		  })
@@ -79,7 +79,7 @@
 			 views: {
 				'side-menu21': {
 				  templateUrl: 'sany6/22.htm',
-				  controller: 'menuCtrl'
+				  controller: 'noiDungCtrl'
 				}
 			 }
 		  })
@@ -88,7 +88,7 @@
 			 views: {
 				'side-menu21': {
 				  templateUrl: 'sany6/23.htm',
-				  controller: 'menuCtrl'
+				  controller: 'noiDungCtrl'
 				}
 			 }
 		  })
@@ -97,7 +97,7 @@
 			 views: {
 				'side-menu21': {
 				  templateUrl: 'sany6/24.htm',
-				  controller: 'menuCtrl'
+				  controller: 'noiDungCtrl'
 				}
 			 }
 		  })
@@ -106,7 +106,7 @@
 			 views: {
 				'side-menu21': {
 				  templateUrl: 'sany6/2.5.htm',
-				  controller: 'menuCtrl'
+				  controller: 'noiDungCtrl'
 				}
 			 }
 		  })
@@ -115,7 +115,7 @@
 			 views: {
 				'side-menu21': {
 				  templateUrl: 'sany6/2.6.htm',
-				  controller: 'menuCtrl'
+				  controller: 'noiDungCtrl'
 				}
 			 }
 		  })
@@ -125,7 +125,7 @@
 			 views: {
 				'side-menu21': {
 				  templateUrl: 'sany6/31.htm',
-				  controller: 'menuCtrl'
+				  controller: 'noiDungCtrl'
 				}
 			 }
 		  })
@@ -134,7 +134,7 @@
 			 views: {
 				'side-menu21': {
 				  templateUrl: 'sany6/32.htm',
-				  controller: 'menuCtrl'
+				  controller: 'noiDungCtrl'
 				}
 			 }
 		  })
@@ -143,7 +143,7 @@
 			 views: {
 				'side-menu21': {
 				  templateUrl: 'sany6/33.htm',
-				  controller: 'menuCtrl'
+				  controller: 'noiDungCtrl'
 				}
 			 }
 		  })
@@ -152,7 +152,7 @@
 			 views: {
 				'side-menu21': {
 				  templateUrl: 'sany6/34.htm',
-				  controller: 'menuCtrl'
+				  controller: 'noiDungCtrl'
 				}
 			 }
 		  })
@@ -161,7 +161,7 @@
 			 views: {
 				'side-menu21': {
 				  templateUrl: 'sany6/35.html',
-				  controller: 'menuCtrl'
+				  controller: 'noiDungCtrl'
 				}
 			 }
 		  })
@@ -170,7 +170,7 @@
 			 views: {
 				'side-menu21': {
 				  templateUrl: 'sany6/36.htm',
-				  controller: 'menuCtrl'
+				  controller: 'noiDungCtrl'
 				}
 			 }
 		  })
@@ -179,7 +179,7 @@
 			 views: {
 				'side-menu21': {
 				  templateUrl: 'sany6/37.htm',
-				  controller: 'menuCtrl'
+				  controller: 'noiDungCtrl'
 				}
 			 }
 		  })
@@ -188,7 +188,7 @@
 			 views: {
 				'side-menu21': {
 				  templateUrl: 'sany6/38.htm',
-				  controller: 'menuCtrl'
+				  controller: 'noiDungCtrl'
 				}
 			 }
 		  })
@@ -198,7 +198,7 @@
 			 views: {
 				'side-menu21': {
 				  templateUrl: 'sany6/41.htm',
-				  controller: 'menuCtrl'
+				  controller: 'noiDungCtrl'
 				}
 			 }
 		  })
@@ -207,7 +207,7 @@
 			 views: {
 				'side-menu21': {
 				  templateUrl: 'sany6/42.htm',
-				  controller: 'menuCtrl'
+				  controller: 'noiDungCtrl'
 				}
 			 }
 		  })
@@ -216,7 +216,7 @@
 			 views: {
 				'side-menu21': {
 				  templateUrl: 'sany6/43.htm',
-				  controller: 'menuCtrl'
+				  controller: 'noiDungCtrl'
 				}
 			 }
 		  })
@@ -225,7 +225,7 @@
 			 views: {
 				'side-menu21': {
 				  templateUrl: 'sany6/44.htm',
-				  controller: 'menuCtrl'
+				  controller: 'noiDungCtrl'
 				}
 			 }
 		  })
@@ -234,7 +234,7 @@
 			 views: {
 				'side-menu21': {
 				  templateUrl: 'sany6/45.htm',
-				  controller: 'menuCtrl'
+				  controller: 'noiDungCtrl'
 				}
 			 }
 		  })
@@ -243,7 +243,7 @@
 			 views: {
 				'side-menu21': {
 				  templateUrl: 'sany6/46.htm',
-				  controller: 'menuCtrl'
+				  controller: 'noiDungCtrl'
 				}
 			 }
 		  })
@@ -252,7 +252,7 @@
 			 views: {
 				'side-menu21': {
 				  templateUrl: 'sany6/51.htm',
-				  controller: 'menuCtrl'
+				  controller: 'noiDungCtrl'
 				}
 			 }
 		  })
@@ -261,7 +261,7 @@
 			 views: {
 				'side-menu21': {
 				  templateUrl: 'sany6/52.htm',
-				  controller: 'menuCtrl'
+				  controller: 'noiDungCtrl'
 				}
 			 }
 		  })
@@ -270,7 +270,7 @@
 			 views: {
 				'side-menu21': {
 				  templateUrl: 'sany6/53.htm',
-				  controller: 'menuCtrl'
+				  controller: 'noiDungCtrl'
 				}
 			 }
 		  })
@@ -279,7 +279,7 @@
 			 views: {
 				'side-menu21': {
 				  templateUrl: 'sany6/54.htm',
-				  controller: 'menuCtrl'
+				  controller: 'noiDungCtrl'
 				}
 			 }
 		  })
@@ -288,7 +288,7 @@
 			 views: {
 				'side-menu21': {
 				  templateUrl: 'sany6/55.htm',
-				  controller: 'menuCtrl'
+				  controller: 'noiDungCtrl'
 				}
 			 }
 		  })
@@ -297,7 +297,7 @@
 			 views: {
 				'side-menu21': {
 				  templateUrl: 'sany6/56.htm',
-				  controller: 'menuCtrl'
+				  controller: 'noiDungCtrl'
 				}
 			 }
 		  })
@@ -306,7 +306,7 @@
 			 views: {
 				'side-menu21': {
 				  templateUrl: 'sany6/57.htm',
-				  controller: 'menuCtrl'
+				  controller: 'noiDungCtrl'
 				}
 			 }
 		  })
@@ -315,7 +315,7 @@
 			 views: {
 				'side-menu21': {
 				  templateUrl: 'sany6/58.htm',
-				  controller: 'menuCtrl'
+				  controller: 'noiDungCtrl'
 				}
 			 }
 		  })
@@ -324,7 +324,7 @@
 			 views: {
 				'side-menu21': {
 				  templateUrl: 'sany6/61.htm',
-				  controller: 'menuCtrl'
+				  controller: 'noiDungCtrl'
 				}
 			 }
 		  })
@@ -333,7 +333,7 @@
 			 views: {
 				'side-menu21': {
 				  templateUrl: 'sany6/71.htm',
-				  controller: 'menuCtrl'
+				  controller: 'noiDungCtrl'
 				}
 			 }
 		  })
@@ -342,7 +342,7 @@
 			 views: {
 				'side-menu21': {
 				  templateUrl: 'sany6/72.htm',
-				  controller: 'menuCtrl'
+				  controller: 'noiDungCtrl'
 				}
 			 }
 		  })
@@ -351,7 +351,7 @@
 			 views: {
 				'side-menu21': {
 				  templateUrl: 'sany6/73.htm',
-				  controller: 'menuCtrl'
+				  controller: 'noiDungCtrl'
 				}
 			 }
 		  })
@@ -360,7 +360,7 @@
 			 views: {
 				'side-menu21': {
 				  templateUrl: 'sany6/74.htm',
-				  controller: 'menuCtrl'
+				  controller: 'noiDungCtrl'
 				}
 			 }
 		  })
@@ -370,7 +370,7 @@
 			 views: {
 				'side-menu21': {
 				  templateUrl: 'sany6/81.htm',
-				  controller: 'menuCtrl'
+				  controller: 'noiDungCtrl'
 				}
 			 }
 		  })
@@ -379,7 +379,7 @@
 			 views: {
 				'side-menu21': {
 				  templateUrl: 'sany6/82.htm',
-				  controller: 'menuCtrl'
+				  controller: 'noiDungCtrl'
 				}
 			 }
 		  })
@@ -388,7 +388,7 @@
 			 views: {
 				'side-menu21': {
 				  templateUrl: 'sany6/83.htm',
-				  controller: 'menuCtrl'
+				  controller: 'noiDungCtrl'
 				}
 			 }
 		  })
@@ -397,7 +397,7 @@
 			 views: {
 				'side-menu21': {
 				  templateUrl: 'sany6/84.htm',
-				  controller: 'menuCtrl'
+				  controller: 'noiDungCtrl'
 				}
 			 }
 		  })
@@ -406,7 +406,7 @@
 			 views: {
 				'side-menu21': {
 				  templateUrl: 'sany6/85.htm',
-				  controller: 'menuCtrl'
+				  controller: 'noiDungCtrl'
 				}
 			 }
 		  })
@@ -415,7 +415,7 @@
 			 views: {
 				'side-menu21': {
 				  templateUrl: 'sany6/86.htm',
-				  controller: 'menuCtrl'
+				  controller: 'noiDungCtrl'
 				}
 			 }
 		  })
@@ -424,7 +424,7 @@
 			 views: {
 				'side-menu21': {
 				  templateUrl: 'sany6/87.htm',
-				  controller: 'menuCtrl'
+				  controller: 'noiDungCtrl'
 				}
 			 }
 		  })
@@ -433,7 +433,7 @@
 			 views: {
 				'side-menu21': {
 				  templateUrl: 'sany6/88.htm',
-				  controller: 'menuCtrl'
+				  controller: 'noiDungCtrl'
 				}
 			 }
 		  })
@@ -442,7 +442,7 @@
 			 views: {
 				'side-menu21': {
 				  templateUrl: 'sany6/89.htm',
-				  controller: 'menuCtrl'
+				  controller: 'noiDungCtrl'
 				}
 			 }
 		  })
@@ -452,7 +452,7 @@
 			 views: {
 				'side-menu21': {
 				  templateUrl: 'sany6/91.htm',
-				  controller: 'menuCtrl'
+				  controller: 'noiDungCtrl'
 				}
 			 }
 		  })
@@ -461,7 +461,7 @@
 			 views: {
 				'side-menu21': {
 				  templateUrl: 'sany6/92.htm',
-				  controller: 'menuCtrl'
+				  controller: 'noiDungCtrl'
 				}
 			 }
 		  })
@@ -470,7 +470,7 @@
 			 views: {
 				'side-menu21': {
 				  templateUrl: 'sany6/93.htm',
-				  controller: 'menuCtrl'
+				  controller: 'noiDungCtrl'
 				}
 			 }
 		  })
@@ -479,7 +479,7 @@
 			 views: {
 				'side-menu21': {
 				  templateUrl: 'sany6/101.htm',
-				  controller: 'menuCtrl'
+				  controller: 'noiDungCtrl'
 				}
 			 }
 			 })
@@ -488,7 +488,7 @@
 			 views: {
 				'side-menu21': {
 				  templateUrl: 'sany6/102.htm',
-				  controller: 'menuCtrl'
+				  controller: 'noiDungCtrl'
 				}
 			 }
 			 })
@@ -497,7 +497,7 @@
 			 views: {
 				'side-menu21': {
 				  templateUrl: 'sany6/103.htm',
-				  controller: 'menuCtrl'
+				  controller: 'noiDungCtrl'
 				}
 			 }
 			 })
@@ -506,7 +506,7 @@
 			 views: {
 				'side-menu21': {
 				  templateUrl: 'sany6/104.htm',
-				  controller: 'menuCtrl'
+				  controller: 'noiDungCtrl'
 				}
 			 }
 			 })
@@ -515,7 +515,7 @@
 			 views: {
 				'side-menu21': {
 				  templateUrl: 'sany6/105.htm',
-				  controller: 'menuCtrl'
+				  controller: 'noiDungCtrl'
 				}
 			 }
 			 })
@@ -524,7 +524,7 @@
 			 views: {
 				'side-menu21': {
 				  templateUrl: 'sany6/106.htm',
-				  controller: 'menuCtrl'
+				  controller: 'noiDungCtrl'
 				}
 			 }
 		  })
