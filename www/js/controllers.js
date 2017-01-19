@@ -6,9 +6,7 @@ angular.module('app.controllers', ['app.services'])
 		$rootScope.localStorage.fontSize = fontSize
 	}
 	$rootScope.giuSang = str2bool(localStorage.giuSang) || false
-	if (isPhoneGap()){
-		$rootScope.giuSang ? window.plugins.insomnia.keepAwake() : window.plugins.insomnia.allowSleepAgain()
-	}
+	
 	$rootScope.keepScreenAwake = function(){
 		if ($rootScope.giuSang) {
 			$rootScope.giuSang = false
