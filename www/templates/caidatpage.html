@@ -1,0 +1,22 @@
+﻿<div class="list" style="margin-top: 13px">
+	<div class="item item-divider">
+		Kích thước chữ: {{localStorage.fontSize +"pt"}} 
+	</div>
+	<div class="item range range-balanced">
+		<i class="icon ion-ios-bolt-outline"></i>
+		<input type="range" name="fontSize" min="8" max="20" value="12" ng-model="localStorage.fontSize" ng-change="fontSizeChange(localStorage.fontSize)">
+		<i class="icon ion-ios-bolt"></i>
+	</div>
+</div>
+<ul class="list">
+
+  <li class="item item-toggle">
+     Giữ màng hình luôn sáng
+     <label class="toggle toggle-calm">
+       <input type="checkbox"  ng-click="keepScreenAwake()" ng-model="giuSang">
+       <div class="track">
+         <div class="handle"></div>
+       </div>
+     </label>
+  </li>
+</ul>

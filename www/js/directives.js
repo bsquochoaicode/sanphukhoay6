@@ -1,5 +1,7 @@
 angular.module('app.directives', [])
 
-.directive('blankDirective', [function(){
-
+.directive('caiDatPage', [function(){
+	return {
+        templateUrl: "templates/caidatpage.html"
+   }
 }]);
