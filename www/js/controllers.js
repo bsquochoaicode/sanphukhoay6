@@ -73,3 +73,6 @@ function isPhoneGap() {
     && /^file:\/{3}[^\/]/i.test(window.location.href) 
     && /ios|iphone|ipod|ipad|android/i.test(navigator.userAgent);
 }
+document.addEventListener("deviceready", function(){
+	str2bool(localStorage.giuSang) ? window.plugins.insomnia.keepAwake() : window.plugins.insomnia.allowSleepAgain()
+}, false);
