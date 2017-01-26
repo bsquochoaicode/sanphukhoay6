@@ -1,0 +1,14 @@
+﻿1. Chỉ copy 2 cái <table> trong bài viết ra ngoài
+2. Thêm ion vào
+<ion-view title="{{localStorage.iratCurrentPage}}" id="page1">
+  <ion-content padding="true" class="has-header">
+
+</ion-content>
+</ion-view> 
+3. Thêm class=hidden vào table thứ 2 để ẩn table đáp án
+sans-serif; font-size:20px"    -> sans-serif; font-size:20px" class=hidden
+4. Universal replace font:
+'Verdana, ' > ''
+'font-size:24px' > 'font-size:{{localStorage.fontSize}}pt'
+'class="style1">Câu hỏi</span>' > 'class="style1">{{localStorage.iratCurrentPage}}</span>'
+ width="70%"  -> 

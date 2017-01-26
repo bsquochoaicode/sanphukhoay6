@@ -233,7 +233,81 @@
 		]
 		return menus;
 }])
-
+.factory('iratMenu', [function(){
+	menus = [
+			{
+			sref: "irat.1",
+			title: "1. Tiết dịch âm đạo bất thường. Tổn thương lành tính cổ tử cung"
+			},{
+			sref: "irat.2",
+			title: "2. Quản lý khối u lành tính của tử cung"
+			},{
+			sref: "irat.3",
+			title: "3. Quản lý bệnh lây qua tình dục"
+			},{
+			sref: "irat.4",
+			title: "4. Quản lý một trường hợp xuất huyết tử cung bất thường"
+			},{
+			sref: "irat.5",
+			title: "5. Tân sinh trong biểu mô cổ tử cung"
+			},{
+			sref: "irat.6",
+			title: "6. Nguyên tắc tiếp cận và quản lý một khối ở phần phụ"
+			},{
+			sref: "irat.7",
+			title: "7. Nguyên tắc tiếp cận và quản lý một khối ở phần phụ"
+			},{
+			sref: "irat.8",
+			title: "8. Thực hành tránh thai"
+			},{
+			sref: "irat.9",
+			title: "9. Phá thai an toàn"
+			},{
+			sref: "irat.10",
+			title: "10. Buồng trứng, noãn bào, phôi và thai"
+			},{
+			sref: "irat.11",
+			title: "11. Bài thi học kỳ mẫu dành cho e-learning"
+			}
+		]
+		return menus;
+}])
+.factory('appMenu', [function(){
+	menus = [
+			{
+			sref: "app.1",
+			title: "1. Tiết dịch âm đạo bất thường. Tổn thương lành tính cổ tử cung"
+			},{
+			sref: "app.2",
+			title: "2. Quản lý khối u lành tính của tử cung"
+			},{
+			sref: "app.3",
+			title: "3. Quản lý bệnh lây qua tình dục"
+			},{
+			sref: "app.4",
+			title: "4. Quản lý một trường hợp xuất huyết tử cung bất thường"
+			},{
+			sref: "app.5",
+			title: "5. Tân sinh trong biểu mô cổ tử cung"
+			},{
+			sref: "app.6",
+			title: "6. Nguyên tắc tiếp cận và quản lý một khối ở phần phụ"
+			},{
+			sref: "app.7",
+			title: "7. Nguyên tắc tiếp cận và quản lý một khối ở phần phụ"
+			},{
+			sref: "app.8",
+			title: "8. Thực hành tránh thai"
+			},{
+			sref: "app.9",
+			title: "9. Phá thai an toàn"
+			},{
+			sref: "app.10",
+			title: "10. Buồng trứng, noãn bào, phôi và thai"
+			}
+		]
+		return menus;
+}])
 .service('BlankService', [function(){
 
 }])

@@ -1,4 +1,4 @@
-﻿angular.module('app.routes', ['app.services'])
+﻿angular.module('app.routes', [])
 
 .config(function($stateProvider, $urlRouterProvider) {
 
@@ -7,9 +7,6 @@
   // Set up the various states which the app can be in.
   // Each state's controller can be found in controllers.js
   $stateProvider
-    
-  
-
       .state('menu.11', {
 			 url: '/11',
 			 views: {
@@ -534,9 +531,224 @@
     templateUrl: 'templates/menu.html',
     controller: 'menuCtrl'
   })
+  
+  
+		  .state('irat', {
+			 url: '/irat',
+			 views: {
+				'irat': {
+				  templateUrl: 'templates/menuIrat.html',
+				  controller: 'iratCtrl'
+				}
+			 }
+		  })  
+		  .state('irat.1', {
+			 url: '/1',
+			 views: {
+				'side-irat': {
+				  templateUrl: 'irat/1069.html',
+				  controller: 'iratCtrl'
+				}
+			 }
+		  })  
+		  .state('irat.2', {
+			 url: '/2',
+			 views: {
+				'side-irat': {
+				  templateUrl: 'irat/1061.html',
+				  controller: 'iratCtrl'
+				}
+			 }
+		  })
+		  .state('irat.3', {
+			 url: '/3',
+			 views: {
+				'side-irat': {
+				  templateUrl: 'irat/1067.html',
+				  controller: 'iratCtrl'
+				}
+			 }
+		  })
+		  .state('irat.4', {
+			 url: '/4',
+			 views: {
+				'side-irat': {
+				  templateUrl: 'irat/1065.html',
+				  controller: 'iratCtrl'
+				}
+			 }
+		  })
+		  .state('irat.5', {
+			 url: '/5',
+			 views: {
+				'side-irat': {
+				  templateUrl: 'irat/1062.html',
+				  controller: 'iratCtrl'
+				}
+			 }
+		  })
+		  .state('irat.6', {
+			 url: '/6',
+			 views: {
+				'side-irat': {
+				  templateUrl: 'irat/1070.html',
+				  controller: 'iratCtrl'
+				}
+			 }
+		  })
+		  .state('irat.7', {
+			 url: '/7',
+			 views: {
+				'side-irat': {
+				  templateUrl: 'irat/1064.html',
+				  controller: 'iratCtrl'
+				}
+			 }
+		  })
+		  .state('irat.8', {
+			 url: '/8',
+			 views: {
+				'side-irat': {
+				  templateUrl: 'irat/1063.html',
+				  controller: 'iratCtrl'
+				}
+			 }
+		  })
+		  .state('irat.9', {
+			 url: '/9',
+			 views: {
+				'side-irat': {
+				  templateUrl: 'irat/1066.html',
+				  controller: 'iratCtrl'
+				}
+			 }
+		  })
+		  .state('irat.10', {
+			 url: '/10',
+			 views: {
+				'side-irat': {
+				  templateUrl: 'irat/1068.html',
+				  controller: 'iratCtrl'
+				}
+			 }
+		  })
+		  .state('irat.11', {
+			 url: '/11',
+			 views: {
+				'side-irat': {
+				  templateUrl: 'irat/1071.html',
+				  controller: 'iratCtrl'
+				}
+			 }
+		  })
+  
+  
+  
+  
+  
+		  .state('app', {
+			 url: '/app',
+			 views: {
+				'app': {
+				  templateUrl: 'templates/menuApp.html',
+				  controller: 'appCtrl'
+				}
+			 }
+		  })  
+		  .state('app.1', {
+			 url: '/1',
+			 views: {
+				'side-app': {
+				  templateUrl: 'app/1085.html',
+				  controller: 'appCtrl'
+				}
+			 }
+		  })  
+		  .state('app.2', {
+			 url: '/2',
+			 views: {
+				'side-app': {
+				  templateUrl: 'app/1072.html',
+				  controller: 'appCtrl'
+				}
+			 }
+		  })
+		  .state('app.3', {
+			 url: '/3',
+			 views: {
+				'side-app': {
+				  templateUrl: 'app/1074.html',
+				  controller: 'appCtrl'
+				}
+			 }
+		  })
+		  .state('app.4', {
+			 url: '/4',
+			 views: {
+				'side-app': {
+				  templateUrl: 'app/1075.html',
+				  controller: 'appCtrl'
+				}
+			 }
+		  })
+		  .state('app.5', {
+			 url: '/5',
+			 views: {
+				'side-app': {
+				  templateUrl: 'app/1078.html',
+				  controller: 'appCtrl'
+				}
+			 }
+		  })
+		  .state('app.6', {
+			 url: '/6',
+			 views: {
+				'side-app': {
+				  templateUrl: 'app/1081.html',
+				  controller: 'appCtrl'
+				}
+			 }
+		  })
+		  .state('app.7', {
+			 url: '/7',
+			 views: {
+				'side-app': {
+				  templateUrl: 'app/1082.html',
+				  controller: 'appCtrl'
+				}
+			 }
+		  })
+		  .state('app.8', {
+			 url: '/8',
+			 views: {
+				'side-app': {
+				  templateUrl: 'app/1079.html',
+				  controller: 'appCtrl'
+				}
+			 }
+		  })
+		  .state('app.9', {
+			 url: '/9',
+			 views: {
+				'side-app': {
+				  templateUrl: 'app/1083.html',
+				  controller: 'appCtrl'
+				}
+			 }
+		  })
+		  .state('app.10', {
+			 url: '/10',
+			 views: {
+				'side-app': {
+				  templateUrl: 'app/1084.html',
+				  controller: 'appCtrl'
+				}
+			 }
+		  })
+		  
 currentUrl = localStorage.currentUrl || "11"
 $urlRouterProvider.otherwise('/side-menu21/'+currentUrl)
-
+$urlRouterProvider.when("/irat", "/irat/1")
   
 
 });

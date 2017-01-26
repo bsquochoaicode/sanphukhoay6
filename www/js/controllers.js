@@ -1,7 +1,9 @@
-angular.module('app.controllers', ['app.services'])
+angular.module('app.controllers', ['app.services', 'ionic'])
  .run(function($rootScope){
 	$rootScope.localStorage = localStorage
 	$rootScope.localStorage.fontSize = localStorage.fontSize || 13
+	$rootScope.localStorage.appCurrentUrl = localStorage.appCurrentUrl || "app.1"
+	$rootScope.localStorage.iratCurrentUrl = localStorage.iratCurrentUrl || "irat.1"
 	$rootScope.fontSizeChange = function(fontSize){
 		$rootScope.localStorage.fontSize = fontSize
 	}
@@ -56,8 +58,33 @@ function ($scope, $stateParams, danhSachMenu,  $ionicScrollDelegate) {
 	}
 }])
 .controller('noiDungCtrl', ['$scope', '$stateParams',
-function ($scope, $stateParams) {
+function ($scope, $stateParams, $ionicModal) {
+}])
+
+.controller('iratCtrl', ['$scope', '$stateParams', '$ionicModal', 'iratMenu',
+function ($scope, $stateParams, $ionicModal, iratMenu) {
 	$scope.localStorage = localStorage
+	$scope.menu = iratMenu
+	$scope.updateTitle = function(menu){
+		$scope.localStorage.iratCurrentPage = menu.title
+		$scope.localStorage.iratCurrentUrl = menu.sref
+		
+		$("#tabIrat").attr("href", "#/"+menu.sref.replace(".","/"))
+	}
+	$scope.saveAns = function(){
+		
+	}
+}])
+.controller('appCtrl', ['$scope', '$stateParams', '$ionicModal', 'appMenu',
+function ($scope, $stateParams, $ionicModal, appMenu) {
+	$scope.localStorage = localStorage
+	$scope.menu = appMenu
+	$scope.updateTitle = function(menu){
+		$scope.localStorage.appCurrentPage = menu.title
+		$scope.localStorage.appCurrentUrl = menu.sref
+		
+		$("#tabIrat").attr("href", "#/"+menu.sref.replace(".","/"))
+	}
 }])
 .controller('caiDatPageCtrl', ['$scope', '$stateParams',
 function ($scope, $stateParams) {
