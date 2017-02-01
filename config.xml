@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <widget id="ga.bsquochoai.sankhoay6" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
-  <name>Sản phụ khoa Y6 (not finished)</name>
+  <name>Sản phụ khoa Y6</name>
   <description>
         Phần mềm truy cập bài giảng của thầy Luân offline trên mobile
     </description>
@@ -17,7 +17,7 @@
   <preference name="android-minSdkVersion" value="9"/>
   <preference name="BackupWebStorage" value="yes"/>
   <preference name="EnableViewportScale" value="true"/>
-  
+  <icon src="icons/android/mipmap-xxxhdpi/ic_launcher.png" />
   <feature name="StatusBar">
     <param name="ios-package" value="CDVStatusBar" onload="true"/>
   </feature>
