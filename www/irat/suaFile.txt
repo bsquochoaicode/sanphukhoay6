@@ -1,6 +1,7 @@
 ﻿1. Chỉ copy 2 cái <table> trong bài viết ra ngoài
 2. Thêm ion vào
-<ion-view title="{{localStorage.iratCurrentPage}}" id="page1">
+<ion-view>
+<ion-nav-title>{{localStorage.iratCurrentPage}}</ion-nav-title>
   <ion-content padding="true" class="has-header">
 
 </ion-content>

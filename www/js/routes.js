@@ -157,7 +157,7 @@
 			 url: '/35',
 			 views: {
 				'side-menu21': {
-				  templateUrl: 'sany6/35.html',
+				  templateUrl: 'sany6/35.htm',
 				  controller: 'noiDungCtrl'
 				}
 			 }
