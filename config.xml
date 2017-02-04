@@ -14,10 +14,9 @@
   <preference name="DisallowOverscroll" value="true"/>
   <preference name="SplashScreenDelay" value="10"/>
   <preference name="FadeSplashScreenDuration" value="10"/>
-	  <platform name="android">
+	 
 		 <preference name="android-minSdkVersion" value="9" />
 		 <preference name="android-targetSdkVersion" value="9" />
-	</platform>
   <preference name="BackupWebStorage" value="yes"/>
   <preference name="EnableViewportScale" value="true"/>
   <icon src="icons/android/mipmap-xxxhdpi/ic_launcher.png" />
