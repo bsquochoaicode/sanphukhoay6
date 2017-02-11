@@ -752,3 +752,32 @@ $urlRouterProvider.when("/irat", "/irat/1")
   
 
 });
+$(document).on('click touch', function () {
+	if (window.getSelection) {
+		 if (window.getSelection().empty) { // Chrome
+			  window.getSelection().empty();
+		 } else if (window.getSelection().removeAllRanges) { // Firefox
+			  window.getSelection().removeAllRanges();
+		 }
+	} else if (document.selection) { // IE?
+		 document.selection.empty();
+	}
+})
+$(document).on('doubletap', function () {
+	toggleHeader()
+})
+
+$(document).dblclick(function () {
+	toggleHeader()
+})
+var isHidden = false;
+function toggleHeader(){
+	if (isHidden){
+		$("ion-header-bar, .tabs").show()
+		$("ion-content").addClass("has-header has-tabs")
+	} else {
+		$("ion-header-bar, .tabs").hide()
+		$("ion-content").removeClass("has-header has-tabs")
+	}
+	isHidden = !isHidden
+}

@@ -50,8 +50,15 @@
         padding-left:40px;
       }
 		ion-side-menus ion-item a {font-size: 10pt;padding: 6pt 20pt 6pt 6pt !important;}
+		.scroll {
+  -webkit-user-select: text;
+  -moz-user-select: text;
+  -ms-user-select: text;
+  user-select: text;
+}
     </style>
 
+    <script src="js/jquery.doubletap.js"></script>
     <script src="js/app.js"></script>
     <script src="js/controllers.js"></script>
     
@@ -67,7 +74,7 @@
     -->
 
   </head>
-  <body ng-app="app" animation="slide-left-right-ios7" >
+  <body ng-app="app" animation="slide-left-right-ios7" ng-controllers="topAppCtrl" id="body">
 
 <ion-tabs class="tabs-positive tabs-icon-top ">
 
