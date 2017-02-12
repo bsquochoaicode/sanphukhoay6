@@ -752,7 +752,7 @@ $urlRouterProvider.when("/irat", "/irat/1")
   
 
 });
-$(document).on('click touch', function () {
+$("html").on('click touch', function () {
 	if (window.getSelection) {
 		 if (window.getSelection().empty) { // Chrome
 			  window.getSelection().empty();
@@ -763,11 +763,11 @@ $(document).on('click touch', function () {
 		 document.selection.empty();
 	}
 })
-$(document).on('doubletap', function () {
+$("html").on('doubletap', function () {
 	toggleHeader()
 })
 
-$(document).dblclick(function () {
+$("html").dblclick(function () {
 	toggleHeader()
 })
 var isHidden = false;
